@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tailwind.css">
+    <title>Login</title>
+</head>
+<body class="flex justify-center bg-orange-400">
+
+    <section class=" bg-yellow-100 m-14 p-8 rounded-lg shadow-xl sm:w-[70%] md:w-[70%] lg:w-[50%]">
+        <div class="flex justify-center items-center">
+            <img class="w-10 h-10 " src="./images/wallet_icon-removebg-preview.png" alt="">
+            <h1 class="text-xl font-sans font-bold ">LALITA</h1>
+        </div>
+        <div class="flex sm:flex-col">
+          <h1 class="text-3xl font-bold flex justify-center ">Login to your account</h1>
+        <p class="flex justify-center text-lg">Securely login to your Lalita</p>
+        </div>
+
+    <aside class="flex justify-center">
+    <form  action="POST">
+        <div class="m-3 mt-8 font-semibold" >
+            <label for="email" class="label2"> Email or Phone Number</label><br>
+            <input class="p-3 px-10 bg-gray-100 shadow-lg flex justify-center" type="email"  name="email"><br>
+        </div> 
+
+        <div class="m-3 font-semibold">
+            <label for="password"> Password:</label><br>
+                <input class="p-3 px-10 bg-gray-100 shadow-lg" type="text"  name="password"> <br>
+        </div>
+        <div class="m-3 flex justify-center">
+            <button class="bg-black text-white text-lg font-bold rounded-lg p-2 px-20 "><a href="./dashboard.html">Log in</a></button>
+            </div>
+          <p class="flex justify-center"><a href="">Forgot password?</a></p> 
+    </form>
+</aside>
+</section>
+</body>
+</html>
